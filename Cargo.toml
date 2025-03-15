@@ -1,0 +1,11 @@
+[package]
+name = "cardinal"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["cardinal-cli", "cardinal-core", "cardinal-identity", "cardinal-server", "cardinal-store"]
+
+[[bin]]
+name = "cardinal"
+path = "cardinal-cli/src/main.rs"
